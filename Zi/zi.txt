@@ -1,0 +1,47 @@
+Linux User Management & File Permissions– Practical Lab
+Goal: Practice Linux user management and file permission commands step-by-step.
+Part 1– User Management Exercises
+Exercise 1– Create a New User
+1. Create a user named
+ Homedirectory
+devuser
+with:
+/home/devuser
+ Default shell
+/bin/bash
+2. Set a password for
+devuser
+.
+3. Verify the user was created by checking:
+
+/etc/passwd
+for the username.
+ UserID(UID) and Group ID (GID).
+ Groupsthe user belongs to.
+4. Verify the password was created.
+5. Verify the login shell is
+/bin/bash
+.
+Exercise 2– Modify the User
+1. Change
+2. Add
+devuser
+devuser
+3. Lock the account.
+4. Unlock the account.
+’s shell to
+to the group
+/bin/zsh
+.
+developers
+Exercise 3– Delete the User
+1. Delete
+devuser
+(create the group if it doesn’t exist).
+without deleting their home directory.
+2. Delete
+devuser
+and their home directory.
+3. Verify removal from
+/etc/passwd
+1.
